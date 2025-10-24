@@ -48,3 +48,6 @@ Esto evita re-renderizados innecesarios y ayuda a mantener la eficiencia al actu
 - Los cambios realizados en los campos de texto se reflejan al instante en la LazyColumn.
 - Compose recompone automáticamente solo los ítems afectados, manteniendo un rendimiento óptimo.
 - Se puede verificar visualmente el cambio y por consola (Logcat) sin necesidad de interactuar con la lista.
+
+# Ejercicio de tabs:
+En el código de las pestañas solo muestran su contenido cuando son seleccionadas; es decir, el contenido del *Tab 2* (la lista con frutas) no se crea ni se dibuja mientras el usuario está en el *Tab 1*. Esto se debe a que el bloque `when (selectedTabIndex)` solo ejecuta la función `Tab2Content()` cuando el índice actual coincide con esa pestaña. Por eso, aunque el código de la lista está definido, **no se carga en memoria ni se renderiza** hasta que el usuario cambia a ese tab, lo que hace que la interfaz sea más eficiente y evite trabajo innecesario.
