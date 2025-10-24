@@ -43,6 +43,6 @@ Esto evita re-renderizados innecesarios y ayuda a mantener la eficiencia al actu
 
 ### Resultado obtenido
 
-✅ Los cambios realizados en los campos de texto se reflejan al instante en la LazyColumn.
-✅ Compose recompone automáticamente solo los ítems afectados, manteniendo un rendimiento óptimo.
-✅ Se puede verificar visualmente el cambio y por consola (Logcat) sin necesidad de interactuar con la lista.
+- Los cambios realizados en los campos de texto se reflejan al instante en la LazyColumn.
+- Compose recompone automáticamente solo los ítems afectados, manteniendo un rendimiento óptimo.
+- Se puede verificar visualmente el cambio y por consola (Logcat) sin necesidad de interactuar con la lista.
