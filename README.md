@@ -3,6 +3,8 @@ iNTEGRANTES:
 - Gordillo Mendoza, Jose Alonzo
 - Phocco Tapia, Alejandro
 
+## Ruta de archivo principal: lazycolumn/app/src/main/java/com/example/lazycolumn/MainActivity.kt
+
 ## 1. Uso de mutableStateOf para el estado de la lista
 var cursos by remember {
     mutableStateOf(
